@@ -2,7 +2,7 @@
 name = "page-pulse"
 version = "1.0.0"
 description = "A small web tool that audits any URL — HTTP status, response time, page title, meta description, H1 count, images missing alt text, and word count."
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 dependencies = [
     "fastapi==0.115.0",
     "uvicorn[standard]==0.30.6",
